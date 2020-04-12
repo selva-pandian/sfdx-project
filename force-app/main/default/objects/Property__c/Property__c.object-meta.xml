@@ -128,6 +128,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Property_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -145,7 +146,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Property_Compact_Layout</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <deprecated>false</deprecated>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>true</enableFeeds>
@@ -164,7 +164,20 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Properties</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>City__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Beds__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Price__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>City__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Beds__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Price__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>City__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Beds__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Price__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>City__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Beds__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Price__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
